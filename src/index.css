@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Impact_Label';
+  src: local('Impact_Label'), url('./fonts/Impact_Label.ttf'), format('truetype');
+ }
+.h1 {
+  font-family: 'ImpactLabel', 'Droid Sans';
+ }
+ @font-face {
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url('./fonts/PermanentMarker-Regular.ttf'), format('truetype');
+ }
+.h2 {
+  font-family: 'PermanentMarker', 'Droid Sans';
+ }
+
