@@ -12,7 +12,7 @@ const InfoWindow = ({ blogpost, closeInfo }) => {
       <div className="flex text-base text-gray-800 text-left mt-6">
       <p className="text-sm mt-1">visited:&nbsp;</p><h2 style={{ fontFamily: 'PermanentMarker-Regular'}}>{blogpost.visitingDate}</h2></div>
       <div className="flex items-center mt-2">
-        <img className="w-10 h-10 rounded-full mr-3" src="/images/myAvatar.png" alt={blogpost.author}></img>
+        <img className="w-10 h-10 rounded-full mr-3" src="https://raw.githubusercontent.com/evahamburgcodingschool/project/master/public/images/myAvatar.png" alt={blogpost.author}></img>
         <p style={{ fontFamily: 'PermanentMarker-Regular'}} className="text-base text-gray-800 leading-none">{blogpost.author}</p>
       </div>
       <p className="text-sm text-gray-800 text-left mt-2"><Link to={`/post/${blogpost.id}`}>read more...</Link></p>
